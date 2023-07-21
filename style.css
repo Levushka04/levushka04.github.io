@@ -1,0 +1,354 @@
+body {
+  font-family: 'Fira Mono Bold', impact; /*Устанавливает семейство шрифта, которое будет использоваться для оформления текста содержимого.*/
+}
+
+header {
+    width: 100%;
+    height: 200 px;
+    position: fixed; /*Устанавливает способ позиционирования элемента относительно окна браузера или других объектов на веб-странице.*/
+    top: 0;
+    left: 0;
+    padding: 1em; /* расстояние элемента от краёв родительского окна*/
+    background: #CDD6DB;
+    opacity: .9; /* прозрачность*/
+}
+
+.nav {
+	margin: 25px 90px 25px 25px; /* расстояние элемента от ближайших других элеметов*/
+    display: flex; /* можно распологать объекты в ряд*/
+    font-size: 35px;
+    font-weight: 700; /* насыщенность шрифта */
+}
+
+.knopki {
+    margin-left: 30px;
+    color: black;
+    text-decoration: none; /* Добавляет оформление текста в виде его подчеркивания, перечеркивания, линии над текстом и мигания. */
+    transition: color 0.2s; /* Динамичность текста */
+	padding: 29px 0;
+}
+
+.knopki:hover {
+    text-decoration: underline;
+    color: rgb(61, 161, 161);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between; /* Расположение элемента в окне */
+}
+
+.log {
+	border-radius: 20px; 
+}
+
+.block1 {
+	background-image: url("zd1.jpg");
+    background-size: no-repeat;
+    background-size: cover;
+	height: 900px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px; 
+}
+
+.h2_1 {
+	border-radius: 20px; 
+	margin: 200px 0px 0px 180px;
+    font-size: 70px;
+	background: white;
+	text-align: center; /* расположение текста */
+	color: #D50000;
+	width:1100px;
+	height: 80px;
+}
+
+.komp {
+	margin-top: 50px;
+	padding: 0px 0px 0px 60px;
+	height:200px;
+	width: 95%;
+	display: flex;
+	flex-direction: row;
+}
+
+.b1_1 {
+	margin-left: 100px;
+	width: 30%;
+}
+
+.nadglav {
+	margin-top: 50px;
+	height:300px;
+	width:30%;
+}
+
+.nadglav_1 {
+	margin-bottom: 30%;
+	background: white;
+	border-radius: 20px; 
+}
+
+.h2_2 {
+	font-size: 35px;
+	text-align: center; /* расположение текста */
+	color: #1565C0;
+	text-decoration: underline;
+}
+
+.b1_2 {
+	text-align: center;
+}
+
+.blockus1 {
+	margin: 0px 20px 0px 20px;
+}
+
+.zaglav {
+	text-transform: uppercase;
+	font-size: 80px;
+	color: rgb(61, 161, 161);
+	text-align: center;
+	width: 90%;
+	margin: 100px 5% 50px 5%;
+	border: 10px double #1565C0;
+	border-radius: 20px; 
+}
+
+.imgu {
+	border: 1px solid black;
+	border-radius: 20px; 
+}
+
+.bimg1 {
+	margin: 30px;
+}
+
+.blockus2 {
+	border: 10px solid rgb(61, 161, 161);
+	border-radius: 20px; 
+	height:460px;
+	margin-top: 50px;
+}
+
+.rus1 {
+	margin-left: 300px;
+}
+
+.nazus{
+	font-size: 45px;
+	text-align: center; /* расположение текста */
+	color: #1565C0;
+}
+
+.cenus{
+	column-count: 2;
+	column-gap: 30px;
+}
+
+li {
+	margin-bottom: 2em;
+	font-family: Calibri;
+	font-weight:500;
+	font-size: 20px;
+}
+
+font {
+	color: #D50000;
+	text-decoration: underline;
+}
+
+.blockus3 {
+	border: 10px solid rgb(61, 161, 161);
+	border-radius: 20px; 
+	height:540px;
+	margin-top: 50px;
+}
+
+.rus2 {
+	margin-right:600px;
+}
+
+.bimg2 {
+	margin: 45px 20px 0px 0px;
+}
+
+.blockus4 {
+	border: 10px solid rgb(61, 161, 161);
+	border-radius: 20px; 
+	height:540px;
+	margin-top: 50px;
+}
+
+.rus3 {
+	margin-left: 650px;
+}
+
+.bimg3 {
+	margin: 50px 0px 0px 30px;
+}
+
+.blockus5 {
+	border: 10px solid rgb(61, 161, 161);
+	border-radius: 20px; 
+	height:500px;
+	margin-top: 50px;
+}
+
+.rus4 {
+	margin-left: 20px;
+}
+
+.bimg4 {
+	margin: 50px 20px 0px 0px;
+}
+
+.bimg5 {
+	margin: 30px 0px 30px 125px;
+}
+
+.blockus6 {
+	border: 10px solid rgb(61, 161, 161);
+	border-radius: 20px; 
+	height:460px;
+	margin-top: 50px;
+}
+
+.rus5 {
+	margin-left: 500px;
+}
+
+.ronas {
+	display: flex;
+}
+
+.infonas {
+	margin-left:2%;
+	border: 10px solid rgb(61, 161, 161);
+	border-radius: 20px;
+	width: 30%;
+	display: inline-block;
+}
+
+.imgonas {
+	margin:0px 5% 0px 5%;
+	border-radius: 20px; 
+}
+
+.txtonas {
+	padding: 5%;
+	font-family: Calibri;
+	font-weight:500;
+	font-size: 20px;
+}
+
+#infonas1 {
+	height: 720px;
+}
+
+#infonas2 {
+	height: 850px;
+}
+
+#infonas3 {
+	height: 820px;
+}
+
+.poisk {
+	border: 10px solid rgb(61, 161, 161);
+	border-radius: 20px;
+}
+
+.karta {
+	margin-top: 30px;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+.kontakti {
+	display: inline-block;
+	width: 40%;
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+.imgkon {
+	height: 45px;
+	width: 45px;
+}
+
+.kontxt {
+	padding-top:6px;
+}
+
+.poisknach {
+	font-family: Calibri;
+	font-weight:500;
+	font-size: 20px;
+}
+
+.pust {
+	width:50px;
+	display: inline-block;
+}
+
+.bsvz {
+	border: 10px solid rgb(61, 161, 161);
+	border-radius: 20px;
+	height: 400px;
+	display: flex;
+}
+
+.nadpissvz {
+	display: inline-block;
+	margin:120px;
+	margin-left: 200px;
+}
+
+.forma {
+	display: inline-block;
+	margin: 10px;
+	mardin-left: 50px;
+}
+
+#form_input {
+	
+}
+
+#form_input label {
+	color: blue;
+	cursor: pointer;
+	font-size: 30px;
+}
+
+#form_input label > span {
+	color: #e87e7e;
+}
+
+#form_input input,#form_input textarea {
+	border-radius: 7px;
+	border: 2px solid rgb(61, 161, 161);
+	color: blue;
+	width: 500px;
+	height: 50px;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+placeholder {
+	font-size: 20px;
+}
+
+.btn {
+	margin-top: 10px;
+	float: center;
+	text-align: center;
+	background-color: #7B1FA2;
+	padding-bottom: 2px;
+	cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(61, 161, 161);
+}
